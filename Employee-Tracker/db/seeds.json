@@ -1,0 +1,29 @@
+{
+  "departments": [
+    { "name": "Sales" },
+    { "name": "Engineering" },
+    { "name": "Finance" },
+    { "name": "Legal" }
+  ],
+  "roles": [
+    { "title": "Sales Lead", "salary": 100000, "department_id": 1 },
+    { "title": "Salesperson", "salary": 80000, "department_id": 1 },
+    { "title": "Lead Engineer", "salary": 150000, "department_id": 2 },
+    { "title": "Software Engineer", "salary": 120000, "department_id": 2 },
+    { "title": "Account Manager", "salary": 160000, "department_id": 3 },
+    { "title": "Accountant", "salary": 70000, "department_id": 3 },
+    { "title": "Legal Team Lead", "salary": 250000, "department_id": 4 },
+    { "title": "Lawyer", "salary": 190000, "department_id": 4 }
+  ],
+  "employees": [
+    { "first_name": "John", "last_name": "Doe", "role_id": 1, "manager_id": null },
+    { "first_name": "Mike", "last_name": "Chan", "role_id": 2, "manager_id": 1 },
+    { "first_name": "Ashley", "last_name": "Rodriguez", "role_id": 3, "manager_id": null },
+    { "first_name": "Kevin", "last_name": "Tupik", "role_id": 4, "manager_id": 3 },
+    { "first_name": "Kunal", "last_name": "Singh", "role_id": 5, "manager_id": null },
+    { "first_name": "Malia", "last_name": "Brown", "role_id": 6, "manager_id": 5 },
+    { "first_name": "Sarah", "last_name": "Lourd", "role_id": 7, "manager_id": null },
+    { "first_name": "Tom", "last_name": "Allen", "role_id": 8, "manager_id": 7 }
+  ]
+}
+
